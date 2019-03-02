@@ -35,7 +35,10 @@ Here is a bill of material with the part numbers I used:
    - PJ-102AH
 * (x1) Barrel Jack Power supply (Must fit the LD1117v33C input requirements)
    - SunFounder DC 9V/650mA Power Supply Plug Adapter
-
+* Break away headers
+    - 2 pins for access to Rx/Tx
+    - 3 pins + jumper for restarting in programming mode
+        - Alternativley use a mini 3 pin single pole, double throw (SPDT) switch
 
 You can copy my project by scanning this QR into the Blynk app. You'll need to supply your new Authtoken in the sketch's ```char auth[]``` field.
 <p align="center">
